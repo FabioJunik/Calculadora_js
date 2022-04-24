@@ -85,3 +85,35 @@ button{
     background-color: #adf9d7;
     color: #000;
 }
+
+/* dark theme */
+
+
+.dark{
+    background-color: #254655;
+}
+.calculator-dark{
+    background-color: #071115;
+}
+
+.calculator-dark .display{
+    color: #fff;
+}
+.calculator-dark .mode{
+    background-color: #fff;
+}
+
+.calculator-dark button.btn-number{
+    background-color: #1b2f38;
+    color: #fff;
+}
+
+.calculator-dark button.btn-operation{
+    background-color: #8f2286;
+    color: #f967f3;
+}
+
+.calculator-dark button.btn-equal{
+    background-color: #77143a;
+    color: #3a0318;
+}
