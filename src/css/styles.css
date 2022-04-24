@@ -55,3 +55,33 @@ button{
  button:hover{
     transform: scale(1.1);
 }
+
+/* light theme */
+
+
+.light{
+    background-color: rgb(126, 165, 250);
+}
+
+.calculator-light{
+    background-color: #fff;
+}
+
+.calculator-light .mode{
+    background-color: #1c1c1c;
+}
+
+.calculator-light button.btn-number{
+    background-color: #c3eaff;
+    color: #000;
+}
+
+.calculator-light button.btn-operation{
+    background-color: #ffd0f2;
+    color: #f967f3;
+}
+
+.calculator-light button.btn-equal{
+    background-color: #adf9d7;
+    color: #000;
+}
