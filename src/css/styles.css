@@ -5,3 +5,53 @@
     outline: 0;
     box-sizing: border-box;
 }
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+
+table{
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #000;
+    width: 300px;
+}
+
+.mode{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.display{
+    margin-top: 100px;
+    padding: 10px;
+    width: 100%;
+    font-size: 30px;
+    text-align: right;
+    border:none;
+    background-color: transparent;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius:50% ;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+ button:hover{
+    transform: scale(1.1);
+}
